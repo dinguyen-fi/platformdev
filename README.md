@@ -50,8 +50,6 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
     ```
     sf org login web --set-default-dev-hub --alias platformDev
     ```
-    username: diiemGmail
-    L...1!
     ```
     sf org create scratch --set-default -f config/project-scratch-def.json --alias platformDev --duration-days 30
     ```
