@@ -1,4 +1,4 @@
-# Welcome to my Courses!
+# Welcome to platformdev!
 
 Thank you for starting one of my courses on Pluralsight! Here's some information to help you get the configuration and code used throughout the courses installed into your own org. This repository covers the following courses
 
@@ -36,7 +36,6 @@ git remote -v
     origin  https://github.com/dinguyen-fi/platformdev.git (push)
 
 git remote remove NAMESOMETHING-origin
-
 
 git add .
 git commit -m "MESSAGE"
