@@ -37,8 +37,11 @@ git remote -v
 
 git remote remove NAMESOMETHING-origin
 
-git remote add origin https://github.com/dinguyen-fi/platformdev.git
 
+git add .
+git commit -m "MESSAGE"
+git remote -v
+git remote add origin https://github.com/dinguyen-fi/platformdev.git
 git push -u origin main
 
 ## Upload Code Using Git
