@@ -8,7 +8,6 @@ Thank you for starting one of my courses on Pluralsight! Here's some information
 - Salesforce Development: User Interface 
 - Salesforce Development: Testing, Debugging, and Deployment
 
-If you run into any issues or want to leave some feedback for me, feel free to drop a comment in Pluralsight or reach out to me on [Twitter (X)](https://twitter.com/adam17amo) or [LinkedIn](https://www.linkedin.com/in/adamolshansky/)!
 
 ## How Do You Plan to Deploy Your Changes?
 
@@ -64,7 +63,7 @@ git push -u origin main
     sf org login web --set-default-dev-hub --alias platformDev
     ```
     ```
-    sf org create scratch --set-default -f config/project-scratch-def.json --alias platformDev --duration-days 30
+    sf org create scratch --set-default -f config/project-scratch-def.json --alias OrgDev --duration-days 30
     ```
 4. Deploy the code to your org
    ```
