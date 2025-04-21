@@ -34,7 +34,7 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
 
 1. Clone the repository to your computer and navigate to that folder
     ```
-    git clone https://github.com/adam17amo/platformDev.git 
+    git clone https://github.com/dinguyen-fi/platformdev.git
     ```
     ```
     cd platformDev
@@ -48,8 +48,10 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
     ```
     3b. If you don't already have your [Dev Hub authorized](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_cli_usernames_orgs.htm), authorize it via your IDE or run the first command. Once it's authorized, create your scratch org via the second command
     ```
-    sf org login web --set-default-dev-hub --alias my-hub-org
+    sf org login web --set-default-dev-hub --alias platformDev
     ```
+    username: diiemGmail
+    L...1!
     ```
     sf org create scratch --set-default -f config/project-scratch-def.json --alias platformDev --duration-days 30
     ```
@@ -69,7 +71,7 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
 3. (Optional) Create some sample data for Stores, Suppliers (Accounts), and Store Supply Orders. Feel free to use the data folder as a guide
 4. (Optional) Download the code to your computer to follow along
     ```
-    git clone https://github.com/adam17amo/platformDev.git 
+    git clone https://github.com/dinguyen-fi/platformdev.git
     ```
     ```
     cd platformDev
@@ -89,6 +91,7 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
     ```
     ```
     (Get-Content data/suppliers.json) -replace 'supplierRecordTypeId', (Get-Content recordType.txt).substring(1,18) | Set-Content data/suppliers.json; rm recordType.txt
+    
     ```
 
     1c. Manually (if the above scripts don't work)

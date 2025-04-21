@@ -12,7 +12,7 @@
             "Primary_Contact_Email__c": "example@youremailhere.com",
             "Service_Level_Agreement__c": "Gold",
             "Upsell_Opportunity__c": "Maybe",
-            "RecordTypeId": "supplierRecordTypeId"
+            "RecordTypeId": "012ak000006K8Z4AAK"
         },
         {
             "attributes": {
@@ -26,7 +26,7 @@
             "Primary_Contact_Email__c": "example@youremailhere.com",
             "Service_Level_Agreement__c": "Platinum Plus",
             "Upsell_Opportunity__c": "Yes",
-            "RecordTypeId": "supplierRecordTypeId"
+            "RecordTypeId": "012ak000006K8Z4AAK"
         },
         {
             "attributes": {
@@ -40,7 +40,7 @@
             "Primary_Contact_Email__c": "example@youremailhere.com",
             "Service_Level_Agreement__c": "Platinum Plus",
             "Upsell_Opportunity__c": "No",
-            "RecordTypeId": "supplierRecordTypeId"
+            "RecordTypeId": "012ak000006K8Z4AAK"
         },
         {
             "attributes": {
@@ -54,7 +54,7 @@
             "Primary_Contact_Email__c": "example@youremailhere.com",
             "Service_Level_Agreement__c": "Platinum Plus",
             "Upsell_Opportunity__c": "Yes",
-            "RecordTypeId": "supplierRecordTypeId"
+            "RecordTypeId": "012ak000006K8Z4AAK"
         },
         {
             "attributes": {
@@ -68,7 +68,7 @@
             "Primary_Contact_Email__c": "example@youremailhere.com",
             "Service_Level_Agreement__c": "Silver",
             "Upsell_Opportunity__c": "Yes",
-            "RecordTypeId": "supplierRecordTypeId"
+            "RecordTypeId": "012ak000006K8Z4AAK"
         }
     ]
 }

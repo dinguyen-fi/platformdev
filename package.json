@@ -38,9 +38,9 @@
       "eslint"
     ]
   },
-  "author": "Adam Olshansky",
+  "author": "dinguyen-fi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adam17amo/platformdev"
+    "url": "git+https://github.com/dinguyen-fi/platformdev"
   }
 }
