@@ -30,6 +30,17 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
 
 # Options for Installing Files for Courses
 
+## Git 
+git remote -v
+    origin  https://github.com/dinguyen-fi/platformdev.git (fetch)
+    origin  https://github.com/dinguyen-fi/platformdev.git (push)
+
+git remote remove NAMESOMETHING-origin
+
+git remote add origin https://github.com/dinguyen-fi/platformdev.git
+
+git push -u origin main
+
 ## Upload Code Using Git
 
 1. Clone the repository to your computer and navigate to that folder
