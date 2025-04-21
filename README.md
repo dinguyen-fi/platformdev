@@ -73,6 +73,7 @@ Choose whether you want to use a developer org or scratch org. Choose a [develop
     ```
     git clone https://github.com/dinguyen-fi/platformdev.git
     ```
+git remote add origin https://github.com/dinguyen-fi/platformdev.git
     ```
     cd platformDev
     ```
