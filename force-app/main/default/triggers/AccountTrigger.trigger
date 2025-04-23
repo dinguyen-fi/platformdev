@@ -2,16 +2,17 @@ trigger AccountTrigger on Account (before insert, after update) {
     if(Trigger.isBefore && Trigger.isInsert) {
         for(Account acct : Trigger.new) {
             // Set the Service Level Agreement based on the Quality Rating
-            if(acct.Quality_Rating__c == 100) {
+                if(acct.Quality_Rating__c == 100) {
                 acct.Service_Level_Agreement__c = 'Platinum';
             } else if(acct.Quality_Rating__c > 80) {
                 acct.Service_Level_Agreement__c = 'Gold';
             } else if(acct.Quality_Rating__c > 50) {
                 acct.Service_Level_Agreement__c = 'Silver';
-            } else if(acct.Quality_Rating__c > 0) {
+            } else if(acct.Quality_Rating__c > 0          ) 
+            {
                 acct.Service_Level_Agreement__c = 'Bronze';
             } else if(acct.Quality_Rating__c == 0) {
-                acct.Service_Level_Agreement__c = 'Blue';
+                acct.Service_Level_Agreement__c = 'Blue';              
             } else {
                 acct.Service_Level_Agreement__c = null;
             }

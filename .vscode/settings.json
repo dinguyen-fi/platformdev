@@ -4,5 +4,6 @@
     "**/bower_components": true,
     "**/.sfdx": true
   },
-  "editor.rulers": [120]
+  "editor.rulers": [120],
+  "prettier.prettierPath": "./node_modules/prettier"
 }
